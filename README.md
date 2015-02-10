@@ -9,6 +9,6 @@ First, I'll explain to you what's a title, issue, page and interactivity.
 
 1. Title: It's a newspaper, magazine or comic book name. 
 2. Issue: Within a title there's some edition, but, I call this of the issue.
-3. Page: It's the pages from edition.
+3. Page: This is the pages from edition.
 4. Interactivity: It's a features like video, sounds, etc, within page.
 
