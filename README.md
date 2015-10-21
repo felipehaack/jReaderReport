@@ -32,12 +32,17 @@ jReaderReport.init(1º, 2º, 3º, 4º);
 3. The ID from current issue. (number)
 4. An array with each page id in ascending order. (array)
 
-**Result:** It'll send a page view and view time for each 10 seconds.
+**Result:** It'll send a page view and view time for each 10 seconds to each google analytics ID.
  
 ### Change Time Interval For View Time
 
-For default, each 10 segundos the API send for all google analytics IDs the view time. You can to change it any time just call:
+By default, each 10 seconds the API send view time to each google analytics ID. You can to change it from source code or variable:
 
+Source Code: Search for **"timeInterval: 10"** and change it (seconds);
+
+Javascript: Execute it before start API.
+```
+jReaderReport.report.recursive.timeInterval = 5;
 ```
 
-```
+**OBS:** Time interval is in seconds.
