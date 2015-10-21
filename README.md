@@ -2,15 +2,14 @@
 
 ##Introducting
 
-How you know, there's a lot of projects that allow you show a newspaper, magazine or comic book edition for tablets, smartphones and desktop. Moreover, with effects to go to the next/previous page and features like video, sounds, animations within of the edition. Say this, I'm developing an API for you report critical information to the Google Analytics.
+There's some projects which help to create a web reader like newspaper, magazine, comic book, etc, in tablets, smartphones and desktop using HTML. Moreover, adding effect to each element into page (transition, scale, skew, etc), inserting video and sounds supported by HTML5. Say this, I'm developing an API for report some informations from these web readers to Google Analytics.
 
 ##What Can It Report?
-First, I'll explain to you what's a title, issue, page and interactivity.
 
-1. **Title:** It's a newspaper, magazine or comic book name. 
-2. **Issue:** Within a title there's some edition, but, I named "issue".
-3. **Page:** The pages from each edition.
-4. **Interactivity:** The features like a video, sounds, etc, within page.
+1. **Page View**: Send a page view when user open the reader.
+2. **View Time**: Send view time while user read each page.
+3. **Interactivity**: Send custom interactivity like user open a video, execute a song, started an animation, etc.
+4. **Social**: Send a share custom event from supported social network like facebook, twitter, google+ and pinterest.
 
 ##Dependencies
 
@@ -27,10 +26,10 @@ First, make sure the google analytics API was started before jReaderReport.
 jReaderReport.init(1º, 2º, 3º, 4º);
 ```
 
-1. An array with each google analytics ID. (array)
-2. The ID from current edition. (number)
-3. The ID from current issue. (number)
-4. An array with each page id in ascending order. (array)
+1. An array with each google analytics ID. (array, ex: [UA-12312-12, UA-31231-23])
+2. The ID from current edition. (number, ex: 127)
+3. The ID from current issue. (number, ex: 983)
+4. An array with each page id in ascending order. (array, [40, 21, 2, 4, 9])
 
 **Result:** It'll send a page view and view time for each 10 seconds to each google analytics ID.
  
