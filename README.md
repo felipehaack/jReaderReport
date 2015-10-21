@@ -32,7 +32,7 @@ jReaderReport.init(1º, 2º, 3º, 4º);
 3. The ID from current issue. (number)
 4. An array with each page id in ascending order. (array)
 
-Result: It'll send a page view and view time for each 10 seconds.
+**Result:** It'll send a page view and view time for each 10 seconds.
  
 ### Change Time Interval For View Time
 
