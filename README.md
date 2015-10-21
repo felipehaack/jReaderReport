@@ -18,3 +18,26 @@ First, I'll explain to you what's a title, issue, page and interactivity.
 - And the jReaderReport.js from this repository.
 
 ##How Use It
+
+First, make sure the google analytics API was started before jReaderReport.
+
+###Initializing
+
+```
+jReaderReport.init(1º, 2º, 3º, 4º);
+```
+
+1. An array with each google analytics ID. (array)
+2. The ID from current edition. (number)
+3. The ID from current issue. (number)
+4. An array with each page id in ascending order. (array)
+
+- It'll send a page view and view time for each 10 seconds.
+ 
+### Change Time Interval For View Time
+
+For default, each 10 segundos the API send for all google analytics IDs the view time. You can to change it any time just call:
+
+```
+
+```
