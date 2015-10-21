@@ -11,6 +11,13 @@ There's some projects which help to create a web reader like newspaper, magazine
 3. **Interactivity**: Send custom interactivity like user open a video, execute a song, started an animation, etc.
 4. **Social**: Send a share custom event from supported social network like facebook, twitter, google+ and pinterest.
 
+##Nomenclatures
+
+1. Edition: Refer to magazine, newspaper, comic book, etc.
+2. Issue: 
+3. Page:
+4. Interactivity: 
+
 ##Dependencies
 
 - Import into your project the  [Google Analytics Javascript API](https://developers.google.com/analytics/devguides/collection/analyticsjs/).
