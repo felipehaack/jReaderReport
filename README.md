@@ -2,7 +2,7 @@
 
 ##Introducting
 
-There's some projects which help to create a web reader like newspaper, magazine, comic book, etc, for tablets, smartphones and desktop using HTML. Moreover, adding effect to each element into page (transition, scale, skew, etc), inserting video and sounds supported by HTML5. Say this, I'm developing an API for report some informations from these web readers to Google Analytics.
+There's some projects which help to create a web reader like newspaper, magazine, comic book, etc, for tablets, smartphones and desktop. Moreover, adding effect to each element into page (transition, scale, skew, etc), inserting video and sounds supported by HTML5. Say this, I'm developing an API for report some informations from these web readers to Google Analytics.
 
 ##What Can It Report?
 
