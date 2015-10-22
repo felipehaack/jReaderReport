@@ -48,7 +48,7 @@ By default, each 10 seconds the API send view time to each google analytics ID. 
 jReaderReport.report.recursive.timeInterval = 5;
 ```
 
-### View Interactivity
+### Report Interactivity View
 
 ```
 jReaderReport.interactivity.view(1º, 2º, 3º);
