@@ -30,10 +30,10 @@ There's some projects which help to create a web reader like newspaper, magazine
 jReaderReport.init(1º, 2º, 3º, 4º);
 ```
 
-1. An array with each google analytics ID. (array, ex: [UA-12312-12, UA-31231-23])
-2. The ID from current edition. (number, ex: 127)
-3. The ID from current issue. (number, ex: 983)
-4. An array with each page id in ascending order. (array, [40, 21, 2, 4, 9])
+1. An array with each google analytics ID. (**array**, *ex: [UA-12312-12, UA-31231-23]*)
+2. The ID from current edition. (**number**, *ex: 127*)
+3. The ID from current issue. (**number**, *ex: 983*)
+4. An array with each page id in ascending order. (**array**, *[40, 21, 2, 4, 9]*)
 
 **Result:** It'll send a page view and view time for each 10 seconds to each google analytics ID.
  
