@@ -69,3 +69,10 @@ jReaderReport.social.init(1º, 2º, 3º);
 1. The social network supported by API: facebook, twitter, googleplus and pinterest. (**string**)
 2. The custom event supported: share. (**string**)
 3. A describe for the custom event. (**string**, *ex: http://facebook.com.br/user-name-go-to-my-website*);
+
+## Offline Report
+
+When user is offline, but still reading the web reader, the API stores all data from current session (the current google analytics IDs are linked to it).
+
+1. If the user came back it send to google analytics.
+2. If the user access another edition or issue, the API search the google analytics IDs linked to the offline data and send it.
