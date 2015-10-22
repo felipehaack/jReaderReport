@@ -41,9 +41,9 @@ jReaderReport.init(1º, 2º, 3º, 4º);
 
 By default, each 10 seconds the API send view time to each google analytics ID. You can to change it from source code or variable:
 
-**Source Code:** Search for **"timeInterval: 10"** and change it (seconds);
+1. **Source Code:** Search for **"timeInterval: 10"** and change it (seconds);
+2. **Javascript:** Execute the follow code before the init API (seconds).
 
-**Javascript:** Execute the follow code before the init API.
 ```
 jReaderReport.report.recursive.timeInterval = 5;
 ```
