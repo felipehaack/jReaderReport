@@ -18,7 +18,7 @@ There's some projects which help to create a web reader like newspaper, magazine
 3. **Interactivity**: Send custom interactivity like "user open a video", "execute a song", "started an animation", etc, from a page.
 4. **Social**: Send a share custom event from supported social network like facebook, twitter, google+ and pinterest.
 
-##Dependencie
+##Dependence
 
 - Import the  [Google Analytics Javascript API](https://developers.google.com/analytics/devguides/collection/analyticsjs/) and make sure It was started before the jReaderReport.
 
