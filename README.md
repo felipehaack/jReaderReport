@@ -72,7 +72,7 @@ jReaderReport.social.init(1º, 2º, 3º);
 
 ## Offline Report
 
-When user is offline, but still reading the web reader, the API stores all data from current session (the current google analytics IDs are linked to it).
+When user is offline, but still reading the web reader, the API stores all data from current session (google analytics IDs are linked to it too).
 
-1. If the user came back it send to google analytics.
-2. If the user access another edition or issue, the API search the google analytics IDs linked to the offline data and send it.
+1. If user came back, the API search for offline stored data and send it.
+2. If user access other edition or issue, the API search the google analytics IDs linked to the offline data and send it.
