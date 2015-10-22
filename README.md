@@ -16,7 +16,7 @@ There's some projects which help to create a web reader like newspaper, magazine
 1. **Page View**: Send a page view when user open the reader.
 2. **View Time**: Send view time while user read each page.
 3. **Interactivity**: Send custom interactivity like "user open a video", "execute a song", "started an animation", etc, from a page.
-4. **Social**: Send a share custom event from supported social network like facebook, twitter, google+ and pinterest.
+4. **Social**: Send a share custom event from supported social network like facebook, twitter, googleplus and pinterest.
 
 ##Dependence
 
@@ -57,3 +57,15 @@ jReaderReport.interactivity.view(1º, 2º, 3º);
 1. The current page number. (**number**, *ex: 1*)
 2. The interactivity ID. (**string**, *ex: video*)
 3. A file name to describe the interactivity. (**string**, *ex: star wars trailer*)
+
+### Report Social Network Share
+
+Currently the API only support share event for facebook, twitter, googleplus and pinterest.
+
+```
+jReaderReport.social.init(1º, 2º, 3º);
+```
+
+1. The social network supported by API: facebook, twitter, googleplus and pinterest. (**string**)
+2. The custom event supported: share. (**string**)
+3. A describe for the custom event. (**string**, *ex: http://facebook.com.br/user-name-go-to-my-website*);
