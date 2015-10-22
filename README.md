@@ -9,7 +9,7 @@ There's some projects which help to create a web reader like newspaper, magazine
 1. **Edition:** the magazine, newspaper, comic book, etc.
 2. **Issue:** each edition from maganize, newspaper, comic book, etc.
 3. **Page:** each page in the issue.
-4. **Interactivity:** video, song, animation, etc.
+4. **Interactivity:** user is watching a video, listening a song, started an animation, etc.
 
 ##What Can It Report?
 
