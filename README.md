@@ -47,3 +47,13 @@ By default, each 10 seconds the API send view time to each google analytics ID. 
 ```
 jReaderReport.report.recursive.timeInterval = 5;
 ```
+
+### View Interactivity
+
+```
+jReaderReport.interactivity.view(1º, 2º, 3º);
+```
+
+1. The current page number. (**number**, *ex: 1*)
+2. The interactivity ID. (**string**, *ex: video*)
+3. A file name to describe the interactivity. (**string**, *ex: star wars trailer*)
