@@ -37,7 +37,7 @@ jReaderReport.init(1º, 2º, 3º, 4º);
 
 **Result:** It'll send a page view and view time for each 10 seconds to each google analytics ID.
  
-### Change Time Interval For View Time
+### Change Time Interval for View Time
 
 By default, each 10 seconds the API send view time to each google analytics ID. You can to change it from source code or variable:
 
