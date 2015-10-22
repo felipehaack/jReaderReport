@@ -4,28 +4,25 @@
 
 There's some projects which help to create a web reader like newspaper, magazine, comic book, etc, for tablets, smartphones and desktop. Moreover, adding effect to each element into page (transition, scale, skew, etc), inserting video and sounds supported by HTML5. Say this, I'm developing an API for report some informations from these web readers to Google Analytics.
 
+##Nomenclatures
+
+1. **Edition:** the magazine, newspaper, comic book, etc.
+2. **Issue:** each edition from maganize, newspaper, comic book, etc.
+3. **Page:** each page in the issue.
+4. **Interactivity:** video, song, animation, etc.
+
 ##What Can It Report?
 
 1. **Page View**: Send a page view when user open the reader.
 2. **View Time**: Send view time while user read each page.
-3. **Interactivity**: Send custom interactivity like user open a video, execute a song, started an animation, etc.
+3. **Interactivity**: Send custom interactivity like "user open a video", "execute a song", "started an animation", etc, from a page.
 4. **Social**: Send a share custom event from supported social network like facebook, twitter, google+ and pinterest.
-
-##Nomenclatures
-
-1. Edition: Refer to magazine, newspaper, comic book, etc.
-2. Issue: 
-3. Page:
-4. Interactivity: 
 
 ##Dependencies
 
-- Import into your project the  [Google Analytics Javascript API](https://developers.google.com/analytics/devguides/collection/analyticsjs/).
-- And the jReaderReport.js from this repository.
+- Import the  [Google Analytics Javascript API](https://developers.google.com/analytics/devguides/collection/analyticsjs/) and make sure It was started before the jReaderReport.
 
 ##How Use It
-
-First, make sure the google analytics API was started before jReaderReport.
 
 ###Initializing
 
@@ -46,9 +43,7 @@ By default, each 10 seconds the API send view time to each google analytics ID. 
 
 Source Code: Search for **"timeInterval: 10"** and change it (seconds);
 
-Javascript: Execute it before start API.
+Javascript: Execute the follow code before the init API.
 ```
 jReaderReport.report.recursive.timeInterval = 5;
 ```
-
-**OBS:** Time interval is in seconds.
